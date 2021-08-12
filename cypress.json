@@ -1,1 +1,5 @@
-{}
+{
+    "env": {
+        "prod_url": "http://saucedemo.com/"
+      }
+}
