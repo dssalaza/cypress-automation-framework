@@ -1,5 +1,6 @@
 {
     "env": {
-        "prod_url": "http://saucedemo.com/"
-      }
+        "prod_url": "https://www.saucedemo.com"
+      },
+      "chromeWebSecurity": false
 }
