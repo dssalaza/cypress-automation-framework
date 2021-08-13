@@ -14,6 +14,4 @@ describe('Login using TypeScript', () => {
         cy.login(user.standardUser , Cypress.env('user_password'));
     })
 })
-    
-
-  
+ 
