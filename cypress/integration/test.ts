@@ -2,17 +2,17 @@ import '../support/commands/login'
 
 describe('Login using TypeScript', () => {
 
-    let user;
+    let users;
 
     beforeEach(() => {
         cy.fixture('users.json').then( data => {
-            user = data;
+            users = data;
         });
         cy.visit(Cypress.env('prod_url'));
     })
   
     it('Login', () => {
-        cy.login(user.standardUser , Cypress.env('user_password'));
+        cy.login(users.standardUser , Cypress.env('user_password'));
     })
 })
  
