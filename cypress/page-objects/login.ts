@@ -1,5 +1,5 @@
 export class LoginPage{
-
+ 
     getUserName() {
         return cy.get('[data-test="username"]');
     }
