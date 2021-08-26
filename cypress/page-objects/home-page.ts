@@ -18,4 +18,11 @@ export class HomePage extends BasePage{
         return cy.get('select[data-test="product_sort_container"]').select('hilo');
     }
 
+    getAddToCartSauceLabsBackpackBtn() {
+        return cy.get('button[data-test="add-to-cart-sauce-labs-backpack"]');
+    }
+    
+    getAddToCartSauceLabsBikeLightBtn() {
+        return cy.get('button[data-test="add-to-cart-sauce-labs-bike-light"]');
+    }
 }
